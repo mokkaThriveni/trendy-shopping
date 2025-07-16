@@ -1,38 +1,427 @@
-.App {
+/* ========== GLOBAL STYLES ========== */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  color: #777;
+}
+
+/* ========== NAVBAR ========== */
+.navbar {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #fbbf24;
+}
+
+/* ========== HERO SECTION ========== */
+.hero {
+  background-image: url('https://media.istockphoto.com/id/1193750118/photo/beautiful-asian-woman-carrying-colorful-bags-shopping-online-with-mobile-phone.jpg?s=2048x2048&w=is&k=20&c=Yyvg4vrUdJ7RXvtEvh_qEuAdE4sQkARcK8fE7YcdFNU=');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero-content {
+  font-size: 2.5rem;
+  margin-top: 30px;
+  position: relative;
+  z-index: 1;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero-btn {
+  padding: 0.75rem 2rem;
+  background-color: #fbbf24;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #f59e0b;
+}
+
+/* ========== PRODUCT LISTING SECTION ========== */
+.phones-container,
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.phone-card,
+.product-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.phone-card:hover,
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.phone-card img,
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.phone-card h3,
+.product-card h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0 5px;
+}
+
+.phone-card p,
+.product-card p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+.see-more-wrapper {
+  text-align: right;
+  
+}
+
+.see-more {
+  font-weight: bold;
+  font-size: 15px;
+  color: #6b21a8;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* ========== DETAILS PAGE ========== */
+.product-detail {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 40px;
+  gap: 40px;
+}
+
+.product-detail img {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.item-details {
+  
+  flex: 1;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;  
+  padding-left: 20px;       
+  gap: 10px;                
+
+
+}
+
+.item-details h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #111827;
+}
+
+.item-details p {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+  display: block;
+}
+
+.item-details strong {
+  display: inline-block;
+  min-width: 100px; 
+}
+
+
+.item-details strong {
+  color: #000;
+}
+
+.item-details button,
+.butto {
+  margin-top: 20px;
+  background-color: #fbbf24;
+  color: #000;
+  padding: 8px 12px; 
+  width: auto;        
+  font-weight: bold;
+  font-size: 14px;     
+  border: none;
+  border-radius: 6px;  
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+   width: fit-content;
+  margin-left: auto;
+  margin-right: auto; 
+  display: block; 
+   
+}
+
+
+.item-details button:hover,
+.butto:hover {
+  background-color: #f59e0b;
+}
+
+/* ========== CART PAGE ========== */
+.cart-item {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  background-color: #fafafa;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.cart-item:hover {
+  transform: scale(1.01);
+}
+
+.cart-item img {
+  border-radius: 8px;
+}
+
+.cart-item h3 {
+  margin: 0;
+  flex: 1;
+  padding: 0 20px;
+  font-size: 20px;
+  color: #444;
+}
+
+.cart-item p {
+  margin: 0 10px;
+  color: #555;
+}
+
+.cart-item button {
+  background-color: #ff4d4f;
   color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.cart-item button:hover {
+  background-color: #d9363e;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* ========== SEE MORE LINK ========== */
+.see-more-wrapper {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.see-more {
+  font-weight: bold;
+  font-size: 15px;
+  color: #6b21a8;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* ========== LANDING PAGE CATEGORY HEADINGS ========== */
+.category-section h2 {
+  font-size: 2rem;
+  color: #111827;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+/* ========== FOOTER ========== */
+.footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.footer-column h4 {
+  margin-bottom: 15px;
+  color: #fbbf24;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  color: #fbbf24;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  color: #ccc;
+  font-size: 20px;
+}
+
+.social-icons a:hover {
+  color: #fbbf24;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* ========== MEDIA QUERIES ========== */
+@media (max-width: 768px) {
+  .hero-heading {
+    font-size: 2rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .category-section h2 {
+    font-size: 1.5rem;
+    padding-left: 10px;
+  }
+
+  .product-card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .product-detail {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .product-detail img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .item-details {
+    text-align: center;
+    align-items: center;
+  }
+
+  .item-details button {
+    align-self: center;
   }
 }
