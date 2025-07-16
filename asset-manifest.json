@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/trendy-shopping/static/css/main.527c0e13.css",
-    "main.js": "/trendy-shopping/static/js/main.a762c55e.js",
+    "main.js": "/trendy-shopping/static/js/main.ee4131ae.js",
     "static/js/453.032bf3d3.chunk.js": "/trendy-shopping/static/js/453.032bf3d3.chunk.js",
     "index.html": "/trendy-shopping/index.html",
     "main.527c0e13.css.map": "/trendy-shopping/static/css/main.527c0e13.css.map",
-    "main.a762c55e.js.map": "/trendy-shopping/static/js/main.a762c55e.js.map",
+    "main.ee4131ae.js.map": "/trendy-shopping/static/js/main.ee4131ae.js.map",
     "453.032bf3d3.chunk.js.map": "/trendy-shopping/static/js/453.032bf3d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.527c0e13.css",
-    "static/js/main.a762c55e.js"
+    "static/js/main.ee4131ae.js"
   ]
 }
