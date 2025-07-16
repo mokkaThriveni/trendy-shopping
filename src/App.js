@@ -2,7 +2,8 @@ import './App.css';
 import LandingPage from './Components/LandingPage';
 import Phone from './Components/Phone';
 import LaptopAll from './Components/LaptopAll';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+
 import MenFashion from './Components/MenFashion';
 import WomenFashion from './Components/WomenFashion';
 import Furniture from './Components/Furniture'
