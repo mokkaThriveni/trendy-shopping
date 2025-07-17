@@ -5,7 +5,7 @@ const LaptopData = [
     version: "Intel Core i5 12th Gen",
     price: 58000,
     details: "15.6-inch FHD Display, 8GB RAM, 512GB SSD, Windows 11",
-    image: "/images/Laptops-images/Dell Inspiron 15.jpeg"
+    image: require("../images/Laptops-images/Dell Inspiron 15.jpeg")
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const LaptopData = [
     version: "Intel Core i7 11th Gen",
     price: 72000,
     details: "14-inch Touchscreen, 16GB RAM, 512GB SSD, Windows 11",
-    image: "images/laptops/hp-pavilion.png"
+    image: require("../images/Laptops-images/HP Pavilion x360.jpeg")
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const LaptopData = [
     version: "AMD Ryzen 5 5500U",
     price: 53000,
     details: "15.6-inch FHD, 8GB RAM, 512GB SSD, Windows 11",
-    image: "/images/Laptops-images/Lenovo IdeaPad Slim 3.jpeg"
+    image: require("../images/Laptops-images/Lenovo IdeaPad Slim 3.jpeg")
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const LaptopData = [
     version: "Apple M1 Chip",
     price: 95000,
     details: "13.3-inch Retina Display, 8GB RAM, 256GB SSD, macOS",
-    image: "/images/Laptops-images/Apple MacBook Air M1.jpeg"
+    image: require("../images/Laptops-images/Apple MacBook Air M1.jpeg")
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const LaptopData = [
     version: "Intel Core i3 11th Gen",
     price: 39000,
     details: "15.6-inch FHD, 8GB RAM, 256GB SSD, Windows 11",
-    image: "/images/Laptops-images/Asus VivoBook 15.jpeg"
+    image: require("../images/Laptops-images/Asus VivoBook 15.jpeg")
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const LaptopData = [
     version: "AMD Ryzen 5 5500U",
     price: 56000,
     details: "15.6-inch FHD, 8GB RAM, 512GB SSD, NVIDIA GTX 1650",
-    image: "/images/Laptops-images/Acer Aspire 7.jpeg"
+    image: require("../images/Laptops-images/Acer Aspire 7.jpeg")
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ const LaptopData = [
     version: "Intel Core i5 11th Gen",
     price: 60000,
     details: "14-inch FHD, 8GB RAM, 512GB SSD, Intel Iris Xe",
-    image: "/images/Laptops-images/MSI Modern 14.jpeg"
+    image: require("../images/Laptops-images/MSI Modern 14.jpeg")
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const LaptopData = [
     version: "Intel Core i7 12th Gen",
     price: 78000,
     details: "15.6-inch AMOLED, 16GB RAM, 512GB SSD, Windows 11",
-    image: "/images/Laptops-images/Samsung Galaxy Book2.jpeg"
+    image: require("../images/Laptops-images/Samsung Galaxy Book2.jpeg")
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ const LaptopData = [
     version: "Intel Core i5 10th Gen",
     price: 65000,
     details: "12.4-inch Touchscreen, 8GB RAM, 128GB SSD, Windows 11",
-    image: "/images/Laptops-images/Microsoft Surface Laptop Go.jpeg"
+    image: require("../images/Laptops-images/Microsoft Surface Laptop Go.jpeg")
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ const LaptopData = [
     version: "Intel Evo i7 12th Gen",
     price: 105000,
     details: "16-inch WQXGA, 16GB RAM, 512GB SSD, Ultra-Light",
-    image: "/images/Laptops-images/LG Gram 16.jpeg"
+    image: require("../images/Laptops-images/LG Gram 16.jpeg")
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ const LaptopData = [
     version: "AMD Ryzen 7 6800H",
     price: 98000,
     details: "15.6-inch FHD 144Hz, 16GB RAM, 1TB SSD, RTX 3050",
-    image: "/images/Laptops-images/Asus ROG Strix G15.jpeg"
+    image: require("../images/Laptops-images/Asus ROG Strix G15.jpeg")
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ const LaptopData = [
     version: "Intel Core i5 12th Gen",
     price: 87000,
     details: "16.1-inch FHD, 16GB RAM, 512GB SSD, NVIDIA RTX 3050",
-    image: "/images/Laptops-images/HP Victus 16.jpeg"
+    image: require("../images/Laptops-images/HP Victus 16.jpeg")
   },
   {
     id: 13,
@@ -101,7 +101,7 @@ const LaptopData = [
     version: "AMD Ryzen 7 5800H",
     price: 99000,
     details: "15.6-inch FHD 165Hz, 16GB RAM, 512GB SSD, RTX 3060",
-    image: "/images/Laptops-images/Lenovo Legion 5.jpeg"
+    image: require("../images/Laptops-images/Lenovo Legion 5.jpeg")
   },
   {
     id: 14,
@@ -109,7 +109,7 @@ const LaptopData = [
     version: "Intel Core i7 12th Gen",
     price: 135000,
     details: "13.4-inch InfinityEdge, 16GB RAM, 512GB SSD, Touch",
-    image: "/images/Laptops-images/Dell XPS 13.jpeg"
+    image: require("../images/Laptops-images/Dell XPS 13.jpeg")
   },
   {
     id: 15,
@@ -117,7 +117,7 @@ const LaptopData = [
     version: "Apple M2 Chip",
     price: 145000,
     details: "13.3-inch Retina, 8GB RAM, 512GB SSD, macOS",
-    image: "/images/Laptops-images/Apple MacBook Pro M2.jpeg"
+    image: require("../images/Laptops-images/Apple MacBook Pro M2.jpeg")
   },
   {
     id: 16,
@@ -125,7 +125,7 @@ const LaptopData = [
     version: "Intel Core i5 13th Gen",
     price: 67000,
     details: "14-inch FHD, 16GB RAM, 512GB SSD, Intel Iris Xe",
-    image: "/images/Laptops-images/Acer Swift Go.jpeg"
+    image: require("../images/Laptops-images/Acer Swift Go.jpeg")
   },
   {
     id: 17,
@@ -133,7 +133,7 @@ const LaptopData = [
     version: "Intel Core i5 10th Gen",
     price: 36000,
     details: "15.6-inch FHD, 8GB RAM, 512GB SSD, Backlit Keyboard",
-    image: "/images/Laptops-images/Infinix INBook X2 Plus.jpeg"
+    image: require("../images/Laptops-images/Infinix INBook X2 Plus.jpeg")
   },
   {
     id: 18,
@@ -141,7 +141,7 @@ const LaptopData = [
     version: "Intel Core i5 11th Gen",
     price: 52000,
     details: "14-inch 2K Display, 8GB RAM, 512GB SSD, Windows 11",
-    image: "/images/Laptops-images/Realme Book Slim.jpeg"
+    image: require("../images/Laptops-images/Realme Book Slim.jpeg")
   },
   {
     id: 19,
@@ -149,7 +149,7 @@ const LaptopData = [
     version: "AMD Ryzen 5 5500U",
     price: 48000,
     details: "14-inch FHD, 8GB RAM, 512GB SSD, Backlit Keyboard",
-    image: "/images/Laptops-images/Honor MagicBook 14.jpeg"
+    image: require("../images/Laptops-images/Honor MagicBook 14.jpeg")
   },
   {
     id: 20,
@@ -157,7 +157,7 @@ const LaptopData = [
     version: "Intel Core i5 10th Gen",
     price: 42000,
     details: "14-inch FHD, 8GB RAM, 512GB SSD, Windows 10",
-    image: "/images/Laptops-images/Avita Liber V14.jpeg"
+    image: require("../images/Laptops-images/Avita Liber V14.jpeg")
   }
 ];
 

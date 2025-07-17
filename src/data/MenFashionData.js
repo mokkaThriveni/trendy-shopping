@@ -7,7 +7,7 @@ const MenFashionData = [
     size: "M, L, XL",
     color: "Blue",
     details: "100% cotton slim-fit casual shirt for everyday use",
-    image: "/images/Menfashion-images/Casual Cotton Shirt.jpeg"
+    image: require("../images/Menfashion-images/Casual Cotton Shirt.jpeg")
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const MenFashionData = [
     size: "30, 32, 34, 36",
     color: "Dark Blue",
     details: "Comfortable stretchable denim for daily wear",
-    image: "/images/Menfashion-images/Regular Fit Jeans.jpeg"
+    image: require("../images/Menfashion-images/Regular Fit Jeans.jpeg")
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const MenFashionData = [
     size: "M, L, XL",
     color: "Black",
     details: "Single-breasted classic fit perfect for office or events",
-    image: "/images/Menfashion-images/Formal Blazer.jpeg"
+    image: require("../images/Menfashion-images/Formal Blazer.jpeg")
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const MenFashionData = [
     size: "S, M, L",
     color: "White",
     details: "Soft cotton T-shirt with bold front graphic print",
-    image: "/images/Menfashion-images/Graphic Printed T-Shirt.jpeg"
+    image: require("../images/Menfashion-images/Graphic Printed T-Shirt.jpeg")
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ const MenFashionData = [
     size: "30, 32, 34, 36",
     color: "Beige",
     details: "Smart casual stretch chinos, perfect for semi-formal occasions",
-    image: "/images/Menfashion-images/Chinos Pants.jpeg"
+    image: require("../images/Menfashion-images/Chinos Pants.jpeg")
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const MenFashionData = [
     size: "M, L, XL",
     color: "Navy Blue",
     details: "Stylish denim jacket with metal buttons and front pockets",
-    image: "/images/Menfashion-images/Denim Jacket.jpeg"
+    image: require("../images/Menfashion-images/Denim Jacket.jpeg")
   },
   {
     id: 7,
@@ -67,7 +67,7 @@ const MenFashionData = [
     size: "M, L, XL",
     color: "Maroon",
     details: "Traditional cotton kurta with modern fit for festive occasions",
-    image: "/images/Menfashion-images/Slim Fit Kurta.jpeg"
+    image: require("../images/Menfashion-images/Slim Fit Kurta.jpeg")
   },
   {
     id: 8,
@@ -77,7 +77,7 @@ const MenFashionData = [
     size: "7, 8, 9, 10",
     color: "White",
     details: "Lightweight and stylish sneakers for casual wear",
-    image: "/images/Menfashion-images/Sneakers.jpeg"
+    image: require("../images/Menfashion-images/Sneakers.jpeg")
   },
   {
     id: 9,
@@ -87,7 +87,7 @@ const MenFashionData = [
     size: "M, L, XL",
     color: "Grey",
     details: "Warm fleece sweatshirt, perfect for winter layering",
-    image: "/images/Menfashion-images/Round Neck Sweatshirt.jpeg"
+    image: require("../images/Menfashion-images/Round Neck Sweatshirt.jpeg")
   },
   {
     id: 10,
@@ -97,7 +97,7 @@ const MenFashionData = [
     size: "30, 32, 34, 36",
     color: "Olive Green",
     details: "Functional multi-pocket pants with a rugged style",
-    image: "/images/Menfashion-images/Cargo Pants.jpeg"
+    image: require("../images/Menfashion-images/Cargo Pants.jpeg")
   }
 ];
 

@@ -7,7 +7,7 @@ const womenFashionData = [
     size: "S, M, L",
     color: "Pink",
     details: "Floral printed knee-length dress, perfect for casual outings",
-    image: "/images/womenFashionData-images/Floral A-Line Dress.jpeg"
+    image: require("../images/womenFashionData-images/Floral A-Line Dress.jpeg")
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const womenFashionData = [
     size: "28, 30, 32",
     color: "Light Blue",
     details: "Stretchable denim with a flattering high-rise fit",
-    image: "/images/womenFashionData-images/High-Waist Skinny Jeans.jpeg"
+    image: require("../images/womenFashionData-images/High-Waist Skinny Jeans.jpeg")
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const womenFashionData = [
     size: "M, L, XL",
     color: "Green",
     details: "Elegant printed Anarkali Kurti suitable for work and events",
-    image: "/images/womenFashionData-images/Cotton Anarkali Kurti.jpeg"
+    image: require("../images/womenFashionData-images/Cotton Anarkali Kurti.jpeg")
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const womenFashionData = [
     size: "Free Size",
     color: "Red",
     details: "Traditional saree with golden embroidery, festive-ready",
-    image: "/images/womenFashionData-images/Embroidered Saree.jpeg"
+    image: require("../images/womenFashionData-images/Embroidered Saree.jpeg")
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ const womenFashionData = [
     size: "S, M, L",
     color: "White",
     details: "Stylish ruffle-sleeve crop top, ideal for casual wear",
-    image: "/images/womenFashionData-images/Ruffled Sleeve Top.jpeg"
+    image: require("../images/womenFashionData-images/Ruffled Sleeve Top.jpeg")
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const womenFashionData = [
     size: "M, L",
     color: "Multicolor",
     details: "Printed boho-style ethnic skirt with drawstring closure",
-    image: "/images/womenFashionData-images/Long Ethnic Skirt.jpeg"
+    image: require("../images/womenFashionData-images/Long Ethnic Skirt.jpeg")
   },
   {
     id: 7,
@@ -67,7 +67,7 @@ const womenFashionData = [
     size: "M, L, XL",
     color: "Royal Blue",
     details: "Elegant full-length gown with subtle shimmer for parties",
-    image: "/images/womenFashionData-images/Maxi Gown.jpeg"
+    image: require("../images/womenFashionData-images/Maxi Gown.jpeg")
   },
   {
     id: 8,
@@ -77,7 +77,7 @@ const womenFashionData = [
     size: "Free Size",
     color: "Black & Grey",
     details: "Comfortable cotton leggings for everyday wear",
-    image: "/images/womenFashionData-images/Leggings Pack of 2.jpeg"
+    image: require("../images/womenFashionData-images/Leggings Pack of 2.jpeg")
   },
   {
     id: 9,
@@ -87,7 +87,7 @@ const womenFashionData = [
     size: "M, L, XL",
     color: "Maroon",
     details: "Warm knitted sweater with round neck and full sleeves",
-    image: "/images/womenFashionData-images/Winter Woolen Sweater.jpeg"
+    image: require("../images/womenFashionData-images/Winter Woolen Sweater.jpeg")
   },
   {
     id: 10,
@@ -97,7 +97,7 @@ const womenFashionData = [
     size: "5, 6, 7, 8",
     color: "Beige",
     details: "Trendy block-heel sandals for party or casual wear",
-    image: "/images/womenFashionData-images/Heeled Sandals.jpeg"
+    image: require("../images/womenFashionData-images/Heeled Sandals.jpeg")
   }
 ];
 

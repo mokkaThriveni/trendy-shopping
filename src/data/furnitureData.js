@@ -7,7 +7,7 @@ const furnitureData = [
     material: "Fabric & Wood",
     color: "Dark Grey",
     details: "3+2 seater with solid wood frame and high-density foam cushions",
-    image: "/images/furnitureData-images/Modern Sofa Set.jpeg"
+    image: require("../images/furnitureData-images/ModernSofaSet.jpeg")
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const furnitureData = [
     material: "Sheesham Wood",
     color: "Walnut Brown",
     details: "Spacious king-size bed with headboard storage",
-    image: "/images/furnitureData-images/King Size Bed.jpeg"
+    image: require("../images/furnitureData-images/King Size Bed.jpeg")
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const furnitureData = [
     material: "Engineered Wood",
     color: "Natural Oak",
     details: "4-seater dining table with cushioned chairs",
-    image: "/images/furnitureData-images/Wooden Dining Table Set.jpeg"
+    image: require("../images/furnitureData-images/Wooden Dining Table Set.jpeg")
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const furnitureData = [
     material: "Engineered Wood",
     color: "Wenge",
     details: "Wall-mounted TV unit with storage drawers and open shelves",
-    image: "/images/furnitureData-images/TV Unit Cabinet.jpeg"
+    image:  require("../images/furnitureData-images/TV Unit Cabinet.jpeg")
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ const furnitureData = [
     material: "MDF & Metal",
     color: "Black & Maple",
     details: "Minimalist design with keyboard tray and side shelves",
-    image: "/images/furnitureData-images/Office Study Table.jpeg"
+    image: require("../images/furnitureData-images/Office Study Table.jpeg")
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const furnitureData = [
     material: "Mesh & Metal",
     color: "Black",
     details: "Adjustable height, headrest, and lumbar support for long working hours",
-    image: "/images/furnitureData-images/Ergonomic Office Chair.jpeg"
+    image: require("../images/furnitureData-images/Ergonomic Office Chair.jpeg")
   },
   {
     id: 7,
@@ -67,7 +67,7 @@ const furnitureData = [
     material: "Engineered Wood",
     color: "White",
     details: "5-shelf open bookcase perfect for study or living room",
-    image: "/images/furnitureData-images/Bookshelf Rack.jpeg"
+    image: require("../images/furnitureData-images/Bookshelf Rack.jpeg")
   },
   {
     id: 8,
@@ -77,7 +77,7 @@ const furnitureData = [
     material: "Solid Wood",
     color: "Teak Finish",
     details: "Center table with magazine rack and storage drawer",
-    image: "/images/furnitureData-images/Coffee Table.jpeg"
+    image: require("../images/furnitureData-images/Coffee Table.jpeg")
   },
   {
     id: 9,
@@ -87,7 +87,7 @@ const furnitureData = [
     material: "Particle Board",
     color: "Dark Walnut",
     details: "3-door wardrobe with shelves, drawers, and mirror panel",
-    image: "/images/furnitureData-images/Wardrobe with Mirror.jpeg"
+    image: require("../images/furnitureData-images/Wardrobe with Mirror.jpeg")
   },
   {
     id: 10,
@@ -97,7 +97,7 @@ const furnitureData = [
     material: "Leatherette",
     color: "Brown",
     details: "Comfortable bean bag with inner liner and refillable beans",
-    image: "/images/furnitureData-images/Bean Bag Chair.jpeg"
+    image: require("../images/furnitureData-images/Bean Bag Chair.jpeg")
   },
   {
     id: 11,
@@ -107,7 +107,7 @@ const furnitureData = [
     material: "Velvet & Wood",
     color: "Navy Blue",
     details: "L-shaped sofa with storage and removable cushions",
-    image: "/images/furnitureData-images/Corner L-Shaped Sofa.jpeg"
+    image: require("../images/furnitureData-images/Corner L-Shaped Sofa.jpeg")
   },
   {
     id: 12,
@@ -117,7 +117,7 @@ const furnitureData = [
     material: "Pine Wood",
     color: "White",
     details: "Twin bunk bed with ladder and under-bed drawers",
-    image: "/images/furnitureData-images/Bunk Bed with Storage.jpeg"
+    image: require("../images/furnitureData-images/Bunk Bed with Storage.jpeg")
   },
   {
     id: 13,
@@ -127,7 +127,7 @@ const furnitureData = [
     material: "Sheesham Wood",
     color: "Mahogany",
     details: "Classic rectangular table with 6 upholstered chairs",
-    image: "/images/furnitureData-images/6-Seater Dining Set.jpeg"
+    image:require( "../images/furnitureData-images/6-Seater Dining Set.jpeg")
   },
   {
     id: 14,
@@ -137,7 +137,7 @@ const furnitureData = [
     material: "Engineered Wood",
     color: "Black",
     details: "Set of 3 wall-mounted display shelves",
-    image: "/images/furnitureData-images/Floating Wall Shelf.jpeg"
+    image: require("../images/furnitureData-images/Floating Wall Shelf.jpeg")
   },
   {
     id: 15,
@@ -147,7 +147,7 @@ const furnitureData = [
     material: "Leatherette",
     color: "Chocolate Brown",
     details: "Manual recliner with wide armrest and soft padding",
-    image: "/images/furnitureData-images/Recliner Chair.jpeg"
+    image: require("../images/furnitureData-images/Recliner Chair.jpeg")
   },
   {
     id: 16,
@@ -157,7 +157,7 @@ const furnitureData = [
     material: "Particle Board",
     color: "Dark Brown",
     details: "Closed shoe cabinet with ventilation holes",
-    image: "/images/furnitureData-images/Shoe Rack Cabinet.jpeg"
+    image: require("../images/furnitureData-images/Shoe Rack Cabinet.jpeg")
   },
   {
     id: 17,
@@ -167,7 +167,7 @@ const furnitureData = [
     material: "Engineered Wood",
     color: "White & Oak",
     details: "Compact computer desk with keyboard tray and shelves",
-    image: "/images/furnitureData-images/Compact Computer Desk.jpeg"
+    image: require("../images/furnitureData-images/Compact Computer Desk.jpeg")
   },
   {
     id: 18,
@@ -177,7 +177,7 @@ const furnitureData = [
     material: "Engineered Wood",
     color: "Walnut",
     details: "Stylish wine rack with shelves, drawers, and glass holder",
-    image: "/images/furnitureData-images/Bar Cabinet.jpeg"
+    image: require("../images/furnitureData-images/Bar Cabinet.jpeg")
   },
   {
     id: 19,
@@ -187,7 +187,7 @@ const furnitureData = [
     material: "Engineered Wood",
     color: "Ivory",
     details: "Dresser with mirror, drawers and cushioned stool",
-    image: "/images/furnitureData-images/Dressing Table with Mirror.jpeg"
+    image: require("../images/furnitureData-images/Dressing Table with Mirror.jpeg")
   },
   {
     id: 20,
@@ -197,7 +197,7 @@ const furnitureData = [
     material: "Rattan & Steel",
     color: "Grey",
     details: "3-piece balcony set with glass-top table and weatherproof chairs",
-    image: "/images/furnitureData-images/Outdoor Patio Set.jpeg"
+    image: require("../images/furnitureData-images/Outdoor Patio Set.jpeg")
   }
 ];
 
