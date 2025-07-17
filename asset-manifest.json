@@ -1,15 +1,24 @@
 {
   "files": {
     "main.css": "/trendy-shopping/static/css/main.527c0e13.css",
-    "main.js": "/trendy-shopping/static/js/main.ee4131ae.js",
-    "static/js/453.032bf3d3.chunk.js": "/trendy-shopping/static/js/453.032bf3d3.chunk.js",
+    "main.js": "/trendy-shopping/static/js/main.1753507e.js",
+    "static/js/453.72ebf21d.chunk.js": "/trendy-shopping/static/js/453.72ebf21d.chunk.js",
+    "static/media/Outdoor Patio Set.jpeg": "/trendy-shopping/static/media/Outdoor Patio Set.6af8a5ab91a85924c5d4.jpeg",
+    "static/media/Long Ethnic Skirt.jpeg": "/trendy-shopping/static/media/Long Ethnic Skirt.d60e39e40cdc02eca87f.jpeg",
+    "static/media/Acer Aspire 7.jpeg": "/trendy-shopping/static/media/Acer Aspire 7.f43307cc111f6a7b987c.jpeg",
+    "static/media/Acer Swift Go.jpeg": "/trendy-shopping/static/media/Acer Swift Go.16a791dc347adecf9d7e.jpeg",
+    "static/media/Realme Book Slim.jpeg": "/trendy-shopping/static/media/Realme Book Slim.083d61ffa823c6a7c843.jpeg",
+    "static/media/Apple MacBook Pro M2.jpeg": "/trendy-shopping/static/media/Apple MacBook Pro M2.c4f81871ad428030fcb0.jpeg",
+    "static/media/iQOO Neo 7.jpeg": "/trendy-shopping/static/media/iQOO Neo 7.bdfa13fba28609971c50.jpeg",
+    "static/media/Redmi K50i.jpeg": "/trendy-shopping/static/media/Redmi K50i.82117cea55a90d7286a7.jpeg",
+    "static/media/Wooden Dining Table Set.jpeg": "/trendy-shopping/static/media/Wooden Dining Table Set.8e25e6a0bcdda294c256.jpeg",
     "index.html": "/trendy-shopping/index.html",
     "main.527c0e13.css.map": "/trendy-shopping/static/css/main.527c0e13.css.map",
-    "main.ee4131ae.js.map": "/trendy-shopping/static/js/main.ee4131ae.js.map",
-    "453.032bf3d3.chunk.js.map": "/trendy-shopping/static/js/453.032bf3d3.chunk.js.map"
+    "main.1753507e.js.map": "/trendy-shopping/static/js/main.1753507e.js.map",
+    "453.72ebf21d.chunk.js.map": "/trendy-shopping/static/js/453.72ebf21d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.527c0e13.css",
-    "static/js/main.ee4131ae.js"
+    "static/js/main.1753507e.js"
   ]
 }
